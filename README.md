@@ -1,5 +1,8 @@
+# DuckDuckGo link scraper for search engine optimization purposes allows for custom wordlist, footprints and extra words just like scrapebox and it's very fast
+
 
 # Examples: 
+
 
 # Collect links for "some keyword":
 
