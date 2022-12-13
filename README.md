@@ -43,3 +43,10 @@
 
 
 ```python3 cutecollect.py list.txt -f footprints.txt -e "site:gov" -r --tor```
+
+
+
+# Collect links with keyword list and footprints list for gov. top level domain with randomization using tor as a proxy and 100 threads
+
+
+```python3 cutecollect.py list.txt -f footprints.txt -e "site:gov" -r --tor -t 100```
