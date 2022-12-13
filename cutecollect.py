@@ -51,8 +51,11 @@ if args.footprints_file:
   footprints.extend(file.read().decode().splitlines())
 
 keywords = []
-with open(args.keywords, "rb") as file:
- keywords = file.read().decode().splitlines()
+try:
+ with open(args.keywords, "rb") as file:
+  keywords = file.read().decode().splitlines()
+except:
+ keywords = [args.keywords]
 
 def scrape(key_data):
  global links_collected
